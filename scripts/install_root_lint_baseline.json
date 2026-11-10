@@ -2,6 +2,7 @@
   "root_from_file": {
     "cron/scheduler.py": 1,
     "gateway/platforms/base.py": 1,
+    "gateway/run.py": 1,
     "hermes_bootstrap.py": 2,
     "hermes_cli/__init__.py": 1,
     "hermes_cli/_early_recovery.py": 2,
@@ -17,22 +18,29 @@
     "hermes_cli/update_pause_record.py": 1,
     "hermes_cli/venv_sync.py": 1,
     "hermes_constants.py": 2,
+    "plugins/platforms/whatsapp/adapter.py": 1,
     "pm/environments.py": 1,
     "pm/launch.py": 1,
     "pm/paths.py": 1,
     "pm/worker.py": 1,
     "tools/bot_mode_dm.py": 1,
+    "tools/cronjob_tools.py": 1,
     "tools/environments/local.py": 1
   },
   "module_sys_path": {
     "cron/scheduler.py": 1,
     "gateway/platforms/base.py": 1,
+    "gateway/run.py": 1,
     "hermes_cli/cron.py": 1,
     "hermes_cli/main.py": 1,
     "hermes_cli/web_server.py": 1,
+    "plugins/platforms/discord/adapter.py": 1,
     "plugins/platforms/raft/adapter.py": 1,
     "plugins/platforms/slack/adapter.py": 1,
-    "pm/launch.py": 1
+    "plugins/platforms/telegram/adapter.py": 1,
+    "plugins/platforms/whatsapp/adapter.py": 1,
+    "pm/launch.py": 1,
+    "tools/cronjob_tools.py": 1
   },
   "reasons": {
     "cron/scheduler.py": "sys.path bootstrap before the first Hermes import (group C, part 2b)",
